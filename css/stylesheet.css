@@ -1,0 +1,245 @@
+body,
+h1,
+h2,
+h3,
+p,
+img,
+ul,
+li,
+header,
+main,
+secion,
+table,
+tr,
+th,
+td,
+footer,
+a {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Amatic SC", sans-serif;
+}
+
+input {
+    font-family: "Amatic SC", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: hsl(0, 0%, 0%);
+    padding         : 1%;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    font-size   : xx-large;
+    font-weight : normal;
+    color       : hsl(0, 0%, 95%);
+    padding-left: 2%;
+}
+
+header nav ul li a:hover {
+    background-color: hsl(0, 0%, 95%);
+    color           : hsl(0, 0%, 0%);
+    padding         : 1%;
+}
+
+.sessao-principal {
+    background-image : url("../img/pizza.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+    min-height       : 90%;
+}
+
+.sessao-principal__container {
+    padding: 8%;
+}
+
+.sessao-principal h2 {
+    font-size  : 100px;
+    color      : hsl(0, 0%, 95%);
+    font-weight: normal;
+    text-align : center;
+    text-shadow: 2px 4px 5px #000, 0 0 1px red;
+}
+
+.sessao-principal__link-cardapio {
+    margin-top: 2%;
+    text-align: center;
+    font-size : xx-large;
+    color     : hsl(0, 0%, 95%);
+}
+
+.sessao-principal p a {
+    color           : hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 0%);
+    padding         : 1%;
+}
+
+.sessao-principal p a:hover {
+    background-color: hsl(0, 0%, 95%);
+    color           : hsl(0, 0%, 0%);
+    text-shadow     : none;
+}
+
+.sessao-principal__texto-horario {
+    background-color: hsl(0, 0%, 0%);
+    color           : hsl(0, 0%, 95%);
+    width           : 15%;
+    text-align      : center;
+    font-size       : x-large;
+}
+
+.sessao-titulos {
+    font-size    : 65px;
+    font-weight  : normal;
+    color        : hsl(0, 0%, 95%);
+    text-align   : center;
+    margin-bottom: 4%;
+}
+
+.sessao-menu {
+    background-color: hsl(0, 0%, 0%);
+    padding         : 5%;
+}
+
+.sessao-menu__container {
+    background-color: hsl(0, 0%, 95%);
+    width           : 100%;
+}
+
+.sessao-menu__cabecalho-texto {
+    background-color: hsl(0, 100%, 30%);
+    text-align      : center;
+    padding         : 1%;
+}
+
+.sessao-menu__cabecalho-texto a {
+    font-size  : 40px;
+    color      : hsl(0, 0%, 95%);
+    font-weight: normal;
+}
+
+.sessao-menu__itens {
+    padding: 2%;
+}
+
+.sessao-menu__textos {
+    font-size: 30px;
+    padding  : 1% 0 0 0;
+}
+
+.sessao-menu__textos-span-preco {
+    background-color: hsl(0, 0%, 35%);
+    color           : hsl(0, 0%, 99%);
+    padding         : 1%;
+    border-radius   : 8%;
+    float           : right;
+    font-weight     : normal;
+}
+
+.sessao-menu__textos-span-menu {
+    border-radius   : 8%;
+    background-color: hsl(0, 100%, 50%);
+    padding         : 0.4%;
+}
+
+.sessao-sobre {
+    background-color: hsl(0, 100%, 30%);
+    padding         : 5%;
+}
+
+.sessao-sobre__textos {
+    font-size     : x-large;
+    color         : hsl(0, 0%, 95%);
+    text-align    : justify;
+    line-height   : 1.7em;
+    padding-bottom: 1%;
+}
+
+.sessao-sobre__imagem-chefe {
+    width        : 150px;
+    height       : 150px;
+    border-radius: 100%;
+}
+
+.sessao-sobre_imagem-interior {
+    width: 100%;
+}
+
+.sessao-sobre__texto-horario {
+    font-size: xx-large;
+    color    : hsl(0, 0%, 95%);
+    margin   : 2% 0 2% 0;
+}
+
+.sessao-contato {
+    background-color: hsl(0, 0%, 40%);
+}
+
+.sessao-contato__container {
+    padding   : 5%;
+    text-align: center;
+}
+
+.sessao-contato__imagem {
+    width: 100%;
+}
+
+.sessao-contato__textos {
+    font-size: x-large;
+    color    : hsl(0, 0%, 95%);
+}
+
+.sessao-contato__span {
+    background-color: hsl(0, 0%, 0%);
+    padding-left    : 0.4%;
+}
+
+.sessao-contato__textos {
+    margin-bottom: 2%;
+}
+
+.sessao-contato__textos-formulario {
+    font-size: 33px;
+    color    : hsl(0, 0%, 95%);
+    margin   : 5% 0 3% 0;
+}
+
+.sessao-contato__container-input {
+    width        : 70%;
+    padding      : 1.5%;
+    margin-bottom: 1.5%;
+    font-size    : x-large;
+}
+
+.sessao-contato__container-button {
+    width    : 73.6%;
+    padding  : 1%;
+    font-size: x-large;
+}
+
+footer {
+    background-color: hsl(0, 0%, 0%);
+    padding         : 5%;
+}
+
+footer p {
+    color     : hsl(0, 0%, 95%);
+    font-size : 20px;
+    text-align: center;
+}
